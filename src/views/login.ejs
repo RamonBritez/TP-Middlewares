@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<%- include('partials/head') %>
+<body>
+	<%- include('partials/header') %>
+	<main class="container">
+		<section class="row">
+			<article class="col-12 col-md-4 mx-auto">
+				<div class="card shadow">
+					<div class="card-body">
+						<form action="/admin" method="GET">
+							<div class="mb-3">
+								<label  for="admin" class="form-label">Administrador</label>
+								<input type="text" class="form-control" id="admin" placeholder="Ingresa tu nombre" name="admin">
+							  </div>
+							  <button class="btn btn-primary">Ingresar</button>
+						</form>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+	<%- include('partials/imgNode') %>
+</body>
+</html>
